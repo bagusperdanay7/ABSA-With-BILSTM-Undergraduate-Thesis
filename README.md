@@ -1,47 +1,50 @@
-# Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory Program
+# Aspect-Based Sentiment Analysis Towards Market Place Application Review Using Bidirectional Long Short-Term Memory
 
-Repository ini merupakan Kode Program dari Skripsi yang berjudul **'Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory Program'** menggunakan bahasa **Python** dan Library **Keras** & **TensorFlow**.
+[**Dokumentasi Bahasa Indonesia (Indonesia Documentation)**](/docs/id/README.md)
 
-Silahkan bisa kunjungi Skripsi saya di link Berikut:
-[Skripsi](https://elibrary.unikom.ac.id/id/eprint/8478/)
+My undergraduate thesis, **Aspect-Based Sentiment Analysis Towards Market Place Application Reviews Using Bidirectional Long Short-Term Memory**, uses the `Python` programming language and the `Keras` and `Tensorflow` libraries to create AI models using 3000 review datasets of one Indonesian marketplace that were collected from Google Play Store platform. This undergraduate thesis was supervised by Mrs. Nelly Indriani Widiastuti, M.T.
 
-Berikut ini adalah program original yang bisa dijalankan langsung di colab:
+Feel free to visit my undergraduate thesis & paper at the following link:
+
+[Undergraduate thesis](https://elibrary.unikom.ac.id/id/eprint/8478/) | [Paper](https://doi.org/10.1109/INCITEST59455.2023.10396931)
+
+The following are the original programmes that can be run directly on Google Colab:
+
 [![Static Badge](https://img.shields.io/badge/Open%20In%20Colab-%23212121?logo=google%20colab)](https://drive.google.com/file/d/1GeUtVlBtl7DR-tvR-9n-R-jCnVUxJpMG/view?usp=sharing)
 
-## Instalasi (Menjalankan Secara Lokal)
+## Technology stack & Tools
 
-### Python
+**This program needs:**
 
-Pastikan sudah menginstall Python terlebih dahulu. Minimum **Python 3.9**
+| Tech Stack & Tools | Version |
+| ------------------ | ------- |
+| Gensim             | 4.2+    |
+| Imbalance Learn    | 0.10+   |
+| Keras              | 2.10+   |
+| MatPlotLib         | 3.6.0+  |
+| NLTK               | 3.8.0+  |
+| Numpy              | 1.19+   |
+| Pandas             | 1.4+    |
+| Python             | 3.9+    |
+| Sci-kit Learn      | 1.1+    |
+| Seaborn            | 0.12.0+ |
+| Tensorflow         | 2.0+    |
+| Visual Studio Code | Latest  |
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Setup
+
+### Install Dependencies
+
+Open terminal, to install using pip, type the following command:
 
 ```bash
 pip install foobar
 ```
 
-## Usage
+### Run Program
 
-```python
-import foobar
+Open project folder in Visual Studio Code
 
-# returns 'words'
-foobar.pluralize('word')
+Open `file.ipynb`, run all.
 
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+`file.ipynb` is a program file you want to run.
