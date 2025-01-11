@@ -1,0 +1,11 @@
+numpy==1.19
+pandas==1.4
+matplotlib==3.6.0
+nltk==3.8.0
+gensim==4.2
+seaborn==0.12.0
+keras==2.10
+tensorflow==2.0
+scikit-learn==1.1
+imbalanced-learn==0.10
+google-play-scraper==1.2.0

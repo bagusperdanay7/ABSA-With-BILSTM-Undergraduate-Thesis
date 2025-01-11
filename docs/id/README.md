@@ -1,8 +1,8 @@
-# Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory Program
+# Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory
 
-[**Dokumentasi Bahasa Indonesia (Indonesia Documentation)**](/docs/id/README.md)
+[**English Documentation (Dokumentasi Bahasa Inggris)**](../../README.md)
 
-Repository ini merupakan Kode Program dari Skripsi yang berjudul **'Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory Program'** menggunakan bahasa **Python** dan Library **Keras** & **TensorFlow**.
+Kode program dari skripsi berjudul **Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory**, mengimplementasikan hasil penelitian skripsi saya dengan bahasa pemrograman **Python** dan bantuan library **Keras** dan **Tensorflow** dalam pembuatan model AI dengan 3000 dataset ulasan salah satu market place Indonesia diambil dari platform _Google Play Store_. Skripsi saya dibimbing oleh Ibu Nelly Indriani Widiastuti, S.Si., M.T.
 
 Silahkan bisa kunjungi Skripsi saya di link Berikut:
 [Skripsi](https://elibrary.unikom.ac.id/id/eprint/8478/)
@@ -10,6 +10,12 @@ Silahkan bisa kunjungi Skripsi saya di link Berikut:
 Berikut ini adalah program original yang bisa dijalankan langsung di colab:
 
 [![Static Badge](https://img.shields.io/badge/Open%20In%20Colab-%23212121?logo=google%20colab)](https://drive.google.com/file/d/1GeUtVlBtl7DR-tvR-9n-R-jCnVUxJpMG/view?usp=sharing)
+
+Datasets & dictionary:
+
+- [Marketplace app Reviews Dataset](https://www.kaggle.com/datasets/bagusperdanayusuf/marketplace-application-in-indonesia-reviews)
+- [Informal to Formal Indonesia Dictionary by Haryo AW](https://github.com/haryoa/indo-collex/blob/main/dict/inforformal-formalIndonesian-dictionary.tsv)
+- [Slang words to proper Indonesia dictionary by Muhammad Okky Ibrohim](https://github.com/haryoa/indo-collex/blob/main/dict/inforformal-formalIndonesian-dictionary.tsv)
 
 ## Technology stack & Tools
 
@@ -34,10 +40,15 @@ Berikut ini adalah program original yang bisa dijalankan langsung di colab:
 
 ### Install Dependencies
 
-Open terminal, to install using pip, type the following command:
+Buka terminal, untuk menginstall menggunakan pip, ketik perintah berikut:
 
 ```bash
-pip install foobar
+# install (pasang) satu persatu
+pip install numpy==1.19
+
+# install semua
+pip install -r requirements.txt
+```
 
 ### Run Program
 
@@ -46,4 +57,3 @@ Buka folder proyek python di Visual Studio Code
 Buka `file.ipynb`, jalankan semua.
 
 `file.ipynb` adalah file program yang ingin dijalankan.
-```
