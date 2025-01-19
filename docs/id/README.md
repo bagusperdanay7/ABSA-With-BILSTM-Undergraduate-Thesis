@@ -5,7 +5,8 @@
 Kode program dari skripsi berjudul **Analisis Sentimen Berbasis Aspek Terhadap Ulasan Aplikasi Market Place Menggunakan Bidirectional Long Short-Term Memory**, mengimplementasikan hasil penelitian skripsi saya dengan bahasa pemrograman **Python** dan bantuan library **Keras** dan **Tensorflow** dalam pembuatan model AI dengan 3000 dataset ulasan salah satu market place Indonesia diambil dari platform _Google Play Store_. Skripsi saya dibimbing oleh Ibu Nelly Indriani Widiastuti, S.Si., M.T.
 
 Silahkan bisa kunjungi Skripsi saya di link Berikut:
-[Skripsi](https://elibrary.unikom.ac.id/id/eprint/8478/)
+
+[Skripsi](https://elibrary.unikom.ac.id/id/eprint/8478/) | [Paper](https://doi.org/10.1109/INCITEST59455.2023.10396931)
 
 Berikut ini adalah program original yang bisa dijalankan langsung di colab:
 
